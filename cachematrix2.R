@@ -17,8 +17,6 @@ makeCacheMatrix <- function(x = matrix()) {
 cacheSolve <- function(x=matrix(), ...) {
         m.Cache <- x$getmatrix()
 
-
-cacheSolve <- function(x, ...) {
         #checking whether the cache is empty.
         if(!is.null(m.Cache)) {
                 message("getting cached data")
